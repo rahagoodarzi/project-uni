@@ -1,0 +1,201 @@
+*{
+    font-family: system-ui;
+}
+
+.main-div{
+
+}
+
+/* start artcile-header */
+.artcile-header{
+    width: 100%;
+    height: 100px;
+    background-color: #eeeeee;
+    margin-bottom: 10px;
+    padding: 10px;
+    z-index: 251;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.head-div{
+    text-align: center;
+    width: 100%;
+}
+
+
+.head-div img{
+    float: right;
+    margin: 3px 60px 3px 3px;
+
+}
+
+.head-div h1{
+    display: inline;
+    margin: 3px;
+    padding: 20px;
+}
+
+.btn-header{
+    float: left;
+    padding: 12px 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: #55d4eb;
+    width: 110px;
+}
+
+
+.btn-header img{
+    margin: 3px;
+    float: right;
+}
+
+.btn-header p{
+    margin: 0px;
+    padding: 0px;
+}
+/* end artcile-header */
+
+
+/*start nav-main*/
+.nav-main{
+    width: 30%;
+    float: right;
+    text-align: right;
+    margin: 8px;
+    margin-top: 153px;
+    padding: 12px 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    float: right;
+  }
+
+.nav-main li{
+   list-style-type: none;
+
+}
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+/* start enter-form */
+.enter-form{
+    width: 100%;
+    margin: 8px 0;
+    display: inline;
+    float: right;
+}
+/* end enter-form */
+
+/*start input-enter */
+.form-input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*end input-enter */
+
+/* start btn-enter */
+.btn-enter{
+  background-color: #063c8f;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float:right;
+}
+/*end btn-enter */
+
+
+/* start news div */
+.news-div{
+    width: 60%;
+    float: left;
+    text-align: right;
+    margin: 8px;
+    margin-top: 153px;
+    padding: 12px 20px;
+}
+
+.news-div div{
+    border-bottom: 1px solid gray;
+}
+
+.pic-div{
+    width:1500px;
+    height: 170px;
+    background:#e2eefc;
+    overflow-x:scroll;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom:85px;
+}
+
+.pic-div img{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    float: right;
+}
+
+
+.footer{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #eeeeee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-div{
+    text-align: center;
+}
+
+
+/* page new */
+/* start new-div */
+
+.new-div p{
+    line-height: 2.5;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: right;
+    padding: 25px;
+}
+
